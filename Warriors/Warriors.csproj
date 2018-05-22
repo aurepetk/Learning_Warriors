@@ -59,10 +59,12 @@
   <ItemGroup>
     <Compile Include="BattleStrategies\Agressive.cs" />
     <Compile Include="BattleStrategies\Passive.cs" />
+    <Compile Include="DistanceCalculator.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="People\Admin.cs" />
     <Compile Include="AdminCenter.cs" />
     <Compile Include="People\Person.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="People\Soldier.cs" />
@@ -72,6 +74,10 @@
     <Compile Include="Soldiers\Officer.cs" />
     <Compile Include="Soldiers\Recruiter.cs" />
     <Compile Include="SqlDatabaseSetup.cs" />
+    <Compile Include="Weapons\Bow.cs" />
+    <Compile Include="Weapons\IWeapon.cs" />
+    <Compile Include="Weapons\Pistol.cs" />
+    <Compile Include="Weapons\Sword.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
